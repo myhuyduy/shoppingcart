@@ -1,6 +1,13 @@
 # shoppingcart
-Test
+1) Place order 
+   Url: /api/ShoppingCart
+   POST REQUEST
+   Example: { "ProductCode": "Product1", "Quantity": 800 }
 
-http://localhost:32662/api/ShoppingCart
+2) Confirm order
+   Url: /api/ConfirmOrder
+   POST request
+   
+Authentication:
+Basic auhentication with username:password in base 64.
 
-http://localhost:32662/api/ConfirmOrder
